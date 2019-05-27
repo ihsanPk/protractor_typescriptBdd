@@ -1,0 +1,140 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "User Creation and Updation",
+    "line": 1,
+    "id": "user-creation-and-updation",
+    "tags": [],
+    "uri": "Test\\features\\user.feature",
+    "elements": [
+      {
+        "id": "user-creation-and-updation;create-new-group-(qc-952)",
+        "keyword": "Scenario",
+        "line": 116,
+        "name": "Create New group (QC-952)",
+        "tags": [
+          {
+            "name": "@createGroup",
+            "line": 103
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 105,
+            "name": "I am on QuinC page",
+            "match": {
+              "location": "Test\\steps\\LoginSteps.ts:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 926000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 106,
+            "name": "Login to QuinC with \"admin\"",
+            "match": {
+              "location": "Test\\steps\\LoginSteps.ts:38"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 79964000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 107,
+            "name": "Go to Admin widget",
+            "match": {
+              "location": "Test\\steps\\UserSteps.ts:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6860000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 108,
+            "name": "Go to Group Tab",
+            "match": {
+              "location": "Test\\steps\\UserSteps.ts:52"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2277000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 109,
+            "name": "Click on Refresh button",
+            "match": {
+              "location": "Test\\steps\\UserSteps.ts:23"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10639000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 110,
+            "name": "Click on New Group icon",
+            "match": {
+              "location": "Test\\steps\\UserSteps.ts:55"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 884000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 111,
+            "name": "Give group name \"Application Admin\" and click on Save button",
+            "match": {
+              "location": "Test\\steps\\UserSteps.ts:58"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 13811000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          }
+        ]
+      }
+    ],
+    "metadata": {
+      "browser": {
+        "name": "chrome",
+        "version": "74.0.3729.131"
+      },
+      "device": "VM",
+      "platform": {
+        "name": "windows",
+        "version": "10"
+      }
+    }
+  }
+]
